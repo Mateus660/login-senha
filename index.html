@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login e senha</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="formulario">
+                <h1>Faça seu login aqui</h1>
+                <p>Preencha os dados abaixo</p>
+                <form action="login.js" method="get">
+                    <div class="dados">
+                        <label for="iemail"></label>
+                        <input type="email" name="iemail" id="email" placeholder="Email">
+                    </div>
+                    <div class="dados">
+                        <label for="isenha"></label>
+                        <input type="number" name="isenha" id="senha" placeholder="Senha">
+                    </div>
+                    <input type="submit" value="Enviar" id="enviar" onclick="enviar()">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
