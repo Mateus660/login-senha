@@ -24,8 +24,8 @@ main {
 
 section#login {
     background-color: #574F73;
-    height: 300px;
-    width: 200px;
+    height: 450px;
+    width: 250px;
     padding: 10px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
@@ -41,20 +41,20 @@ section#login {
 h1 {
   font-family: fantasy;
   color: #07F285;
-  margin-top: 8px;
+  margin-top: 20px;
   text-align: center;
-  font-size: 35px;
+  font-size: 45px;
 
 }
 
 .dados {
-    margin: 20px;
+    margin: 30px;
     color: white;
 
 }
 
 input {
-    height: 25px;
+    height: 32px;
     width: 100%;
     border-radius: 10px;
     border-style: solid;
@@ -69,9 +69,9 @@ input {
     width: 100%;
     height: 35px;
     border-style: none;
-    background-color:  #07F285;
+    background-color: #07F285;
     font-size: 17px;
-
+    margin-top: 30px;
 }
 
 #enviar:hover {
@@ -80,6 +80,20 @@ input {
 
 input:hover {
     border: 2px solid white;
+
+}
+
+#limpar{
+    width: 100%;
+    height: 35px;
+    border-style: none;
+    background-color: #07F285;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+#limpar:hover {
+   border: 2px solid white;
 }
 
 
