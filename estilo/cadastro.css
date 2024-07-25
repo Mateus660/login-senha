@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    background-color: #1B1826;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+main {
+   position: relative;
+   height: 100vh;
+   width: 100vw; 
+
+}
+
+section#cadastro {
+    background-color: #574F73;
+    height: 550px;
+    width: 280px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+
+}
+
+h1 {
+    font-family: fantasy;
+    color: #07F285;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 42px;
+  
+}
+
+.informações {
+    margin: 20px;
+    margin-top: 10px;
+    color: white;
+
+}
+
+input {
+    height: 32px;
+    width: 100%;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px solid #1B1826;
+}
+
+#nascimento {
+    text-indent: 2px;
+}
+
+.confirm {
+    background-color: #07F285;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.limpar {
+   color: #078349;
+   font-size: 17px;
+
+} 
+
+
+
+
