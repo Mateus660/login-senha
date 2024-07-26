@@ -22,7 +22,7 @@ main {
 
 section#cadastro {
     background-color: #574F73;
-    height: 550px;
+    height: 553px;
     width: 280px;
     padding: 10px;
     border-radius: 15px;
@@ -75,6 +75,22 @@ input {
    font-size: 17px;
 
 } 
+
+p {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+p > a {
+    text-decoration: none;
+    text-align: center;
+    color: #07F285;
+}
+
+p > a:hover {
+    text-decoration: underline;
+}
 
 
 

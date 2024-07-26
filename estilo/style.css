@@ -115,5 +115,5 @@ p > a {
 }
 
 P > a:hover {
-    
+  text-decoration: underline;   
 }
