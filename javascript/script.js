@@ -8,7 +8,7 @@
     var labelsenha = document.getElementById('labelsenha')
 
     var consenha = document.getElementById('consenha')
-    var labelconsenha = document.getElementById('labelcosenha')
+    var labelconsenha = document.getElementById('labelconsenha')
      
 
     function nomecorr() {
@@ -36,32 +36,29 @@
 
     function senhacorr () {
         if (senha.value.length <=2) {
-         labelsenha.setAttribute('style', 'color: red')
-         labelsenha.innerHTML = 'Minimo 3 carateres'
+        labelsenha.setAttribute('style', 'color: red')
+        labelsenha.innerHTML = 'Minimo 3 carateres'
          
         } else {
-         labelsenha.setAttribute('style', 'color: #07F285')
-         labelsenha.innerHTML = 'Senha'
+        labelsenha.setAttribute('style', 'color: #07F285')
+        labelsenha.innerHTML = 'Senha'
 
         }
     }
 
     function corrigsenha () {
-        if (consenha.value.length <2) {
-        labelconsenha.setAttribute('style, color: #07F285')
+        if (consenha.value.length <=2) {
+        labelconsenha.setAttribute('style', 'color: red')
         labelconsenha.innerHTML = 'Minimo 3 carateres'
         
         } else {
         labelconsenha.setAttribute('style', 'color: #07F285')
-        labelconsenha.innerHTML = 'Minimo 3 carateres'
+        labelconsenha.innerHTML = 'Senha'
         }   
     }
 
-
-
     function cadastrar () {
      
-
     }
 
     function enviar() {
@@ -75,4 +72,4 @@
         alert('Usuário ou senha errados');
     }
  
-}
+} 
