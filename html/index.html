@@ -13,18 +13,19 @@
                 <h1>Login</h1>
                 <form action="login.js">
                     <div class="dados">
-                        <label for="iemail">Usuário</label>
-                        <input type="text" name="iemail" id="email" placeholder="Usuário">
+                        <label for="iusuario" id="labelnome">Usuário</label>
+                        <input type="text" name="iusuario" id="logusuario">
                     </div>
                     <div class="dados">
-                        <label for="isenha">Senha</label>
-                        <input type="password" name="isenha" id="senha" placeholder="Senha"  autocomplete="new-password">
+                        <label for="isenha" id="labelsenha">Senha</label>
+                        <input type="password" name="isenha" id="logsenha">
                     </div>
                     <input type="submit" value="Enviar" id="ienviar" onclick="enviar(); return false">
+                    
                     <input type="reset" value="Limpar" id="limpar">
                     <p id="cadastro">Não tem login ? <a href="cadastro.html" >Cadastre-se</a></p>
                 </form>
-            </div>
+            </div>             
         </section>
     </main>
     <script src="../javascript/script.js"></script>

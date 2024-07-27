@@ -22,7 +22,7 @@ main {
 
 section#cadastro {
     background-color: #574F73;
-    height: 553px;
+    height: 500px;
     width: 280px;
     padding: 10px;
     border-radius: 15px;
@@ -60,10 +60,6 @@ input {
     border: 1px solid #1B1826;
 }
 
-#nascimento {
-    text-indent: 2px;
-}
-
 .confirm {
     background-color: #07F285;
     margin-bottom: 15px;
@@ -76,10 +72,18 @@ input {
 
 } 
 
+input:hover {
+   border: 2px solid white;
+}
+
+.limpar:hover {
+   border: 2px solid #07F285;
+}
+
 p {
     text-align: center;
     color: white;
-    margin-top: 5px;
+    margin-top: 13px;
 }
 
 p > a {
