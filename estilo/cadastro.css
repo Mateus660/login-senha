@@ -8,14 +8,14 @@
 
 body, html {
     background-color: #1B1826;
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
     
 }
 
 main {
    position: relative;
-   height: 100vh;
+   height: 100dvh;
    width: 100vw; 
 
 }
@@ -96,6 +96,26 @@ p > a:hover {
     text-decoration: underline;
 }
 
+#error {
+   text-align: center;
+   color: #ff0000;
+   background-color: #ffbbbb;
+   padding: 16px;
+   border-radius: 4px;
+   width: 70%;
+   margin: auto;
+   display: none;
 
+}
 
-
+#succes {
+    text-align: center;
+    color: #04522d;
+    background-color: #07F285;
+    padding: 16px;
+    border-radius: 4px;
+    width: 70%;
+    margin: auto;
+    display: none;
+       
+} 
