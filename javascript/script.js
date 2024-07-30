@@ -88,14 +88,13 @@
           succes.innerHTML = 'Cadastro com sucesso'
           error.setAttribute('style', 'display: none')
           error.innerHTML = ''
-          
-          window.location.href = 'https://mateus660.github.io/login-senha/html/index.html'
-
-
+             
+            window.location.href = 'https://mateus660.github.io/login-senha/html/index.html'
+       
         } else {
-          error.setAttribute('style', 'display: none')
+          error.setAttribute('style', 'display: block')
           error.innerHTML = 'cadastro inválido'
-          succes.setAttribute('style', 'display: block')
+          succes.setAttribute('style', 'display: ')
           succes.innerHTML = ''
         }      
     
