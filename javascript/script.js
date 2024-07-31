@@ -74,13 +74,11 @@
         if(validnome && validusuario && validsenha && validcosenha) {
             var listauser = JSON.parse(localStorage.getItem('listauser') || '[]')
 
-            listauser.push(
-            {
+            listauser.push({
                 nomecad: nome.value,
                 usercad: usuario.value,
                 senhacad: senha.value
-            }
-        )
+            });
            
           localStorage.setItem('listauser', JSON.stringify(listauser))
            
@@ -89,8 +87,8 @@
           error.setAttribute('style', 'display: none')
           error.innerHTML = ''
              
-            window.location.href = 'https://mateus660.github.io/login-senha/html/index.html'
-       
+          windowlocation.href = "https://mateus660.github.io/login-senha/html/index.html";   
+        
         } else {
           error.setAttribute('style', 'display: block')
           error.innerHTML = 'cadastro inválido'
@@ -104,7 +102,7 @@
         var logusuario = document.getElementById('logusuario')
         var logsenha = document.getElementById('logsenha')
 
-    if (logusuario == "pessoa" & logsenha == "122") {
+    if (logusuario.value == "pessoa" & logsenha.value == "122") {
         location.href = "https://www.linkedin.com/in/mateus-emanuel-4570201a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
 
     } else {
