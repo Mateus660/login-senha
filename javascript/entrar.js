@@ -11,14 +11,14 @@ function enviar() {
     var uservalid = {
         nome: '',
         user: '',
-        senha: '',
+        senha: ''
     }
 
     listauser = JSON.parse(localStorage.getItem('listauser'))
 
     listauser.array.forEach((item) => {
-        if(usuario.value == item.usercad && senha.value == item.aenhacad) {
-            usevalid = {
+        if(usuario.value == item.usercad && senha.value == item.senhacad) {
+            uservalid = {
                 nome: item.nomecad,
                 user: item.usercad,
                 senha: item.senhacad
@@ -27,5 +27,5 @@ function enviar() {
         }  
     })
     
-    console.log(uservalid)  
+    console.log(listauser)  
  }
