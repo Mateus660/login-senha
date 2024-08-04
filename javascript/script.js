@@ -90,7 +90,7 @@
           error.innerHTML = ''
 
           setTimeout(() => {
-            "../html/index.html"
+           window.location.href = ".html/index.html"
           }, 3000);
         
         } else {
