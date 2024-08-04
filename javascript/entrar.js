@@ -28,7 +28,7 @@ function enviar() {
     })
     
    if(usuario.value == uservalid.user && senha.value == uservalid.senha){
-   window.location.href = '../html/logado.html'
+   window.location.href = 'https://www.linkedin.com/in/mateus-emanuel-4570201a0/'
 
    var mathRandom = Math.random().toString(16).substr(2)
    var tokem = mathRandom + mathRandom
