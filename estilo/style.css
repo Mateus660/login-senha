@@ -117,3 +117,15 @@ p > a {
 P > a:hover {
   text-decoration: underline;   
 }
+
+#msgerror {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 16px;
+    border-radius: 4px;
+    width: 70%;
+    margin: auto;
+    display: none; 
+ 
+ }
